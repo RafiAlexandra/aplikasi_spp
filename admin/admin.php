@@ -1,9 +1,9 @@
 <?php
 session_start();
-if(empty($_SESSION['../id_petugas'])){
+if(empty($_SESSION['id_petugas'])){
     echo"<script>
     alert('Maaf Anda Belum Login');
-    window.location.assign('index2.php');
+    window.location.assign('../index2.php');
     </script>";
 }
 if($_SESSION['level']!='admin'){
