@@ -10,6 +10,7 @@
         <td>Kelas</td>
         <td>Alamat</td>
         <td>No Telepon</td>
+        <td>SPP</td>
         <td>Edit</td>
         <td>Hapus</td>
     </tr>
@@ -27,7 +28,7 @@
             <td><?= $data['nama_kelas'] ?></td>
             <td><?= $data['alamat'] ?></td>
             <td><?= $data['no_telp'] ?></td>
-            <?= $data['tahun'] ?> - <?= number_format($data['nominal'],2,',','.'); ?></td>
+            <td><?= $data['tahun'] ?> - <?= number_format($data['nominal'],2,',','.'); ?></td>
             <td>
                 <a href="?url=edit-siswa&nisn=<?= $data['nisn'] ?>" class='btn btn-warning'>EDIT</a>
             </td>   
