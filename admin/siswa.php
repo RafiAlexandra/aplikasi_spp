@@ -10,7 +10,6 @@
         <td>Kelas</td>
         <td>Alamat</td>
         <td>No Telepon</td>
-        <td>SPP</td>
         <td>Edit</td>
         <td>Hapus</td>
     </tr>
